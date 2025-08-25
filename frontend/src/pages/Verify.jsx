@@ -20,7 +20,7 @@ const Verify = () => {
 
             const response= await axios.post(backendUrl + '/api/order/verifystripe',{success,orderId},{headers:{token}})
 
-            if (response.data.verify) {
+            if (response.data.success) {
                 setCartItems({})
                 navigate('/orders')
             }else{
