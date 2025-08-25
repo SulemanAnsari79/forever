@@ -17,7 +17,8 @@ const LatestCollection = () => {
         <div className='text-center py-8 text-3xl'>
             <Title text1={'Latest'} text2={'Collection'} />
             <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim earum dolor voluptatibus ex suscipit facere voluptatum unde qui doloremque vitae aliquid, officia eum, nam, asperiores natus soluta tempora explicabo?</p>
+                Our latest Products.
+            </p>
         </div>
 
         {/* Rendring products */}
